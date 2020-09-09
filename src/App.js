@@ -54,7 +54,6 @@ class App extends React.Component {
               type="text"
               validations={[validations.required]}
             />
-            <fieldset>
             <label>
               Fornavn:
             </label>
@@ -73,7 +72,6 @@ class App extends React.Component {
               type="text"
               validations={[validations.required]}
             />
-            </fieldset>
             <label>
               E-post:
              </label>

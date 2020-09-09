@@ -1,8 +1,15 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'MuseoSans';
+  src: local('MuseoSans'), url(./fonts/MuseoSans-500.woff) format('woff');
 }
-p {
-  padding:20px;
+body {
+  font-family: MuseoSans;
+  color:darkblue;
+}
+.App {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;  
 }
 .App-logo {
   height: 40vmin;
@@ -39,10 +46,22 @@ p {
   }
 }
 .MuiButton {
-  padding:10px;
-  background:white;
-  color :blue;
+  padding: 5px 15px;
+  background: #2459ad;
+  color: white;
+  border: 1px solid #ddd;
+  font-size: 0.8rem;
 }
 .kCwZgo .MuiSelect {
   margin-right:1.5rem !important
+}
+.MuiButton+.MuiButton {
+  background: white;
+  color: blue;
+}
+.formSubmit {
+  display:none;
+}
+.kCwZgo {
+  padding:0
 }
