@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+p {
+  padding:20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.MuiButton {
+  padding:10px;
+  background:white;
+  color :blue;
+}
+.kCwZgo .MuiSelect {
+  margin-right:1.5rem !important
 }
